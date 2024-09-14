@@ -1,4 +1,4 @@
-﻿using CacheService.Models;
+﻿using CommonExtensions.Models;
 
 namespace CacheService.Interfaces
 {

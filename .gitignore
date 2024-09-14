@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /CommonExtensions/nuget.config
 /CacheService/nuget.config
+/CommonExtensionsInterface/nuget.config

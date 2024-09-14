@@ -1,5 +1,4 @@
 ﻿using CacheService.Interfaces;
-using CacheService.Models;
 using CommonExtensions.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;

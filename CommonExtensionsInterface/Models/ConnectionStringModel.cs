@@ -1,4 +1,4 @@
-﻿namespace CacheService.Models
+﻿namespace CommonExtensionsInterface.Models
 {
     public class ConnectionStringModel
     {
