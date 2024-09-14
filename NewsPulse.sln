@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPulse", "NewsPulse\NewsPulse.csproj", "{E76A3650-E93C-4EE9-8F5C-7D801A94F870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsPulse", "NewsPulse\NewsPulse.csproj", "{E76A3650-E93C-4EE9-8F5C-7D801A94F870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexingService", "IndexingService\IndexingService.csproj", "{CCD4FCCB-9840-4B67-81D7-6B35C142F366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexingService", "IndexingService\IndexingService.csproj", "{CCD4FCCB-9840-4B67-81D7-6B35C142F366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheService", "CacheService\CacheService.csproj", "{D834DBF3-D9E8-40AA-BDEE-776717BDC166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheService", "CacheService\CacheService.csproj", "{D834DBF3-D9E8-40AA-BDEE-776717BDC166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonExtensions", "CommonExtensions\CommonExtensions.csproj", "{1405C088-6779-4E92-A1F5-841E355C62E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonExtensions", "CommonExtensions\CommonExtensions.csproj", "{1405C088-6779-4E92-A1F5-841E355C62E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonExtensionsInterface", "CommonExtensionsInterface\CommonExtensionsInterface.csproj", "{D6C3EFE4-670F-4CDD-A9E9-85FA88043742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1405C088-6779-4E92-A1F5-841E355C62E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1405C088-6779-4E92-A1F5-841E355C62E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1405C088-6779-4E92-A1F5-841E355C62E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C3EFE4-670F-4CDD-A9E9-85FA88043742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C3EFE4-670F-4CDD-A9E9-85FA88043742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C3EFE4-670F-4CDD-A9E9-85FA88043742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C3EFE4-670F-4CDD-A9E9-85FA88043742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

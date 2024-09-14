@@ -24,7 +24,6 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 });
 builder.Services.AddHostedService<CacheInit>();
 
-builder.Services.AddSingleton<IMetaData,MetaData>();
 builder.Services.AddSingleton<IRedisCache, RedisCache>();
 
 

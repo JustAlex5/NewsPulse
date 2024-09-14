@@ -6,13 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-IndexingService-942d4b1e-d0a6-4743-aed0-b59dd5f59713</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
+	  <!---><PackageReference Include="CommonExtensions" Version="1.0.2" /> -->
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="SolrNet" Version="1.1.2" />
     <PackageReference Include="SolrNet.Core" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonExtensions\CommonExtensions.csproj" />
   </ItemGroup>
 </Project>

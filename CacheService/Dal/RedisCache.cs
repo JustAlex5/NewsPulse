@@ -1,5 +1,5 @@
 ﻿using CacheService.Interfaces;
-using CacheService.Models;
+using CommonExtensions.Models;
 using Microsoft.Extensions.Caching.Distributed;
 using StackExchange.Redis;
 using System.Text.Json;
